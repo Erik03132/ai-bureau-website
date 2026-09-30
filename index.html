@@ -7,7 +7,31 @@
       name="description"
       content="AI Bureau — внедряем искусственный интеллект в бизнес-процессы."
     />
-    <title>AI Bureau — внедрение искусственного интеллекта</title>
+    <title>AI Bureau — внедрение искусственного интеллекта в бизнес-процессы</title>
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://ai-bureau.online/" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AI Bureau — внедрение искусственного интеллекта в бизнес-процессы" />
+    <meta property="og:description" content="AI Bureau — внедряем искусственный интеллект в бизнес-процессы." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ai-bureau.online/" />
+    <meta property="og:image" content="https://ai-bureau.online/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Bureau — внедрение искусственного интеллекта в бизнес-процессы" />
+    <meta name="twitter:description" content="AI Bureau — внедряем искусственный интеллект в бизнес-процессы." />
+    <meta name="twitter:image" content="https://ai-bureau.online/og-image.png" />
+
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
@@ -962,6 +986,33 @@
         height: 6px;
       }
 
+      .faq-grid {
+        display: grid;
+        gap: 10px;
+      }
+      .faq-item {
+        padding: 22px 26px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: var(--white);
+      }
+      .faq-item summary {
+        cursor: pointer;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--ink);
+        list-style: none;
+      }
+      .faq-item summary::-webkit-details-marker {
+        display: none;
+      }
+      .faq-item p {
+        margin: 14px 0 0;
+        color: var(--ink-soft);
+        font-size: 14px;
+        line-height: 1.55;
+      }
+
       @media (max-width: 900px) {
         .hero {
           grid-template-columns: 1fr;
@@ -1195,6 +1246,119 @@
         }
       }
     </style>
+
+    <!-- JSON-LD Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "name": "AI Bureau",
+          "url": "https://ai-bureau.online/",
+          "logo": "https://ai-bureau.online/og-image.png",
+          "description": "AI Bureau — внедряем искусственный интеллект в бизнес-процессы.",
+          "email": "erik03132@gmail.com",
+          "sameAs": ["https://t.me/erik03132"]
+        },
+        {
+          "@type": "Service",
+          "serviceType": "AI-агенты",
+          "name": "AI-агенты",
+          "description": "Автономные цифровые сотрудники для продаж, поддержки и HR. 24/7 и с интеграцией в 1С, Bitrix24 и amoCRM.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Умный поиск по документам",
+          "name": "Умный поиск по документам",
+          "description": "RAG-системы корпоративного уровня. PDF, Word, Excel и Confluence — ответы на вопросы за секунды.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Автоматизация документооборота",
+          "name": "Автоматизация документооборота",
+          "description": "От обработки до согласования: распознавание счетов и договоров, маршрутизация и контроль сроков.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Чат-боты и поддержка клиентов",
+          "name": "Чат-боты и поддержка клиентов",
+          "description": "Ответы без задержек в WhatsApp, Telegram и на сайте. Квалификация лидов и связь с CRM.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Развертывание безопасных моделей",
+          "name": "Развертывание безопасных моделей",
+          "description": "Private LLM внутри вашей сети. Air-gapped решения и оптимизация под GPU/CPU с учётом 152-ФЗ.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "Service",
+          "serviceType": "AI-аудит и внедрение",
+          "name": "AI-аудит и внедрение",
+          "description": "Диагностика процессов, ROI-анализ и понятный план внедрения от идеи до результата за 3–6 месяцев.",
+          "provider": {"@type": "Organization", "name": "AI Bureau"}
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Сколько этапов внедрения ИИ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Четыре этапа: аудит, приоритизация, пилот и масштабирование. Начинаем с одного процесса, проверяем эффект, затем расширяем автоматизацию на всю команду."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Сколько стоит внедрить ИИ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Мы начинаем с бесплатного аудита. Точная стоимость формируется после оценки ваших процессов, данных и ограничений."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Можно ли развернуть ИИ в локальной сети?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Да. Мы предлагаем Private LLM внутри вашей сети с air-gapped решениями, что соответствует требованиям 152-ФЗ."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Сколько длится внедрение ИИ?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Внедрение занимает 3–6 месяцев: от диагностики до измеримого результата на проде."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "С какими системами вы работаете?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Интегрируем ИИ в уже используемые вами инструменты: 1С, Bitrix24, amoCRM, Telegram, WhatsApp, Confluence."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Как связаться для бесплатного аудита?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Заполните форму на сайте, напишите в Telegram @erik03132 или отправьте письмо на erik03132@gmail.com."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div class="page">
@@ -1557,6 +1721,72 @@
                 Бизнес-эффект вместо эксперимента<br />
                 Измеримый результат вместо хайпа
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="faq" id="faq" aria-labelledby="faq-title">
+          <div class="container">
+            <div class="section-head">
+              <div>
+                <span class="eyebrow">Часто спрашивают</span>
+                <h2 id="faq-title">Вопросы и ответы</h2>
+              </div>
+              <p class="section-note">
+                Ответы на типичные вопросы о внедрении ИИ в бизнес.
+              </p>
+            </div>
+
+            <div class="faq-grid">
+              <details class="faq-item">
+                <summary>Сколько этапов внедрения ИИ?</summary>
+                <p>
+                  Четыре этапа: аудит, приоритизация, пилот и масштабирование.
+                  Начинаем с одного процесса, проверяем эффект, затем
+                  расширяем автоматизацию на всю команду.
+                </p>
+              </details>
+
+              <details class="faq-item">
+                <summary>Сколько стоит внедрить ИИ?</summary>
+                <p>
+                  Мы начинаем с бесплатного аудита. Точная стоимость
+                  формируется после оценки ваших процессов, данных и
+                  ограничений.
+                </p>
+              </details>
+
+              <details class="faq-item">
+                <summary>Можно ли развернуть ИИ в локальной сети?</summary>
+                <p>
+                  Да. Мы предлагаем Private LLM внутри вашей сети с
+                  air-gapped решениями, что соответствует требованиям 152-ФЗ.
+                </p>
+              </details>
+
+              <details class="faq-item">
+                <summary>Сколько длится внедрение ИИ?</summary>
+                <p>
+                  Внедрение занимает 3–6 месяцев: от диагностики до
+                  измеримого результата на проде.
+                </p>
+              </details>
+
+              <details class="faq-item">
+                <summary>С какими системами вы работаете?</summary>
+                <p>
+                  Интегрируем ИИ в уже используемые вами инструменты: 1С,
+                  Bitrix24, amoCRM, Telegram, WhatsApp, Confluence.
+                </p>
+              </details>
+
+              <details class="faq-item">
+                <summary>Как связаться для бесплатного аудита?</summary>
+                <p>
+                  Заполните форму на сайте, напишите в Telegram
+                  @erik03132 или отправьте письмо на erik03132@gmail.com.
+                </p>
+              </details>
             </div>
           </div>
         </section>
