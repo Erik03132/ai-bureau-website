@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="GaN9-C8adDGu08r6Tgak2g6cfiLLcZtlXLU8WQlq8XQ" />
     <meta
       name="description"
       content="AI Bureau — внедряем искусственный интеллект в бизнес-процессы."
@@ -13,8 +14,7 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://ai-bureau.online/" />
 
-    <!-- Яндекс.Вебмастер: замените {{YANDEX_VERIFICATION}} на код верификации -->
-    <meta name="yandex-verification" content="{{YANDEX_VERIFICATION}}" />
+    <meta name="yandex-verification" content="4ad016e79407c113" />
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
@@ -1363,6 +1363,44 @@
       ]
     }
     </script>
+  
+    <!-- Яндекс.Метрика -->
+    <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],
+    k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(113314969, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true
+    });
+
+    // Цель: отправка формы
+    document.addEventListener('DOMContentLoaded', function() {
+        var form = document.getElementById('contactForm');
+        if (form) {
+            form.addEventListener('submit', function() {
+                ym(113314969, 'reachGoal', 'form_submit');
+            });
+        }
+    });
+
+    // Цель: клик в Telegram
+    document.addEventListener('DOMContentLoaded', function() {
+        var tgLinks = document.querySelectorAll('a[href*="t.me/erik03132"]');
+        tgLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                ym(113314969, 'reachGoal', 'telegram_click');
+            });
+        });
+    });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/113314969" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Яндекс.Метрика -->
   </head>
   <body>
     <div class="page">
